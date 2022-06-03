@@ -3,12 +3,9 @@
 #include <time.h>
 
 /**
- * main - writes 0-9
- * @void: Empty parameter list for main.
+ * main - Entry Point
  *
- * Description: Writes 0-9 with comma and space
- *
- * Return: 0 for success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

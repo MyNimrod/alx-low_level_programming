@@ -3,13 +3,9 @@
 #include <time.h>
 
 /**
- * main - Prints alphabet
- * @void: Empty parameter list for main.
+ * main - Entry Point
  *
- * Description: Prints the alphabet in reverse order
- * Can only use putchar
- *
- * Return: 0 for success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

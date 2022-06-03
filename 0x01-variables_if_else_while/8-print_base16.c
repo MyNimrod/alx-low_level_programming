@@ -3,12 +3,9 @@
 #include <time.h>
 
 /**
- * main - Prints base 16
- * @void: Empty parameter list for main.
+ * main - Entry Point 
  *
- * Description: Prints all hexadecimals
- *
- * Return: 0 for success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
