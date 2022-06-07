@@ -7,6 +7,7 @@
  * islower - checks for lowercase character.
  * isalpha - checks for alphabetic character.
  * sign - prints the sign of a number.
+ * abs - computes the absolute value of an integer.
  *
  */
 
@@ -16,3 +17,4 @@ void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
+int _abs(int);
