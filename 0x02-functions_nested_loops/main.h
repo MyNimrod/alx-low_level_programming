@@ -5,6 +5,7 @@
  * print_alphabet - prints small letter alphabets from a-z followed by a new line 
  * print_alphabet_x10 - prints 10 times the alphabet, in lowercase, followed by a new line.
  * islower - checks for lowercase character.
+ * isalpha - checks for alphabetic character.
  *
  */
 
@@ -12,3 +13,4 @@ int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
+int _isalpha(int c);
