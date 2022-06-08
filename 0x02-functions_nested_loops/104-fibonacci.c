@@ -6,14 +6,12 @@
  *
  * Return: Nothing.
  */
-
 int main(void)
 {
 int count;
 unsigned long x, y, z, a, b, c, carry;
 x = 0;
 y = 1;
-
 for (count = 1; count <= 90; count++)
 {
 z = x + y;
@@ -25,7 +23,6 @@ a = x % 1000;
 x = x / 1000;
 b = y % 1000;
 y = y / 1000;
-
 while (count <= 98)
 {
 carry = (a + b) / 1000;
