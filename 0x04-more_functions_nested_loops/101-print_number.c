@@ -38,7 +38,7 @@ return (power);
 void print_number(int number)
 {
 int size, digit;
-long counter, sign;
+int counter, sign;
 sign = 1;
 digit = 0;
 size = 1;
