@@ -7,7 +7,7 @@
  * _strlen - returns the length of a string
  * _puts - prints a string, followed by a new line, to stdout
  * print_rev - prints a string, in reverse, followed by a new line.
- *
+ * rev_string - function that reverses a string
  *
  */
 
@@ -19,3 +19,4 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
+void rev_string(char *s);
