@@ -11,6 +11,8 @@
  * puts2 - prints every other character of a string
  *puts_half -  prints half of a string, followed by a new line.
  * print_array - prints n elements of an array of integers
+ * *_strcpy - function that copies the string pointed to by src
+ *
  */
 
 
@@ -25,3 +27,4 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
