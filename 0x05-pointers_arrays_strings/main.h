@@ -8,6 +8,7 @@
  * _puts - prints a string, followed by a new line, to stdout
  * print_rev - prints a string, in reverse, followed by a new line.
  * rev_string - function that reverses a string
+ * puts2 - prints every other character of a string
  *
  */
 
@@ -20,3 +21,4 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
+void puts2(char *str);
