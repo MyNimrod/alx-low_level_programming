@@ -5,6 +5,7 @@
  * @dest: string pointer
  * @src: buffer pointer
  * Description: cpies string src to buffer
+ * Return: Dest
  */
 char *_strcpy(char *dest, char *src)
 {
