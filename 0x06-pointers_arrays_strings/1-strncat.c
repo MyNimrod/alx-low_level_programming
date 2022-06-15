@@ -6,7 +6,6 @@
  * @src: the second string to be appended to dest
  * @n: number if integers to concatenate
  * Description: appends the src string to the oldest string
- * but based on input integer n
  * Return: dest
  */
 
