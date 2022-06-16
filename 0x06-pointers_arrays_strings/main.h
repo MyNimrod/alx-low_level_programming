@@ -9,6 +9,7 @@
  * string_toupper - changes all lower case chars to uppercase
  * cap_string - capitalizes all words of a string.
  * leet - encodes a string into 1337
+ * rot13 - encodes a string using rot13
  */
 
 char *_strcat(char *dest, char *src);
@@ -19,3 +20,4 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
+char *rot13(char *);
