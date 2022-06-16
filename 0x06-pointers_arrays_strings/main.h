@@ -11,6 +11,7 @@
  * leet - encodes a string into 1337
  * rot13 - encodes a string using rot13
  * print_number - prints an integer.
+ * print_buffer - prints a buffer
  */
 
 char *_strcat(char *dest, char *src);
@@ -24,3 +25,4 @@ char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
 int _putchar(char);
+void print_buffer(char *b, int size);
