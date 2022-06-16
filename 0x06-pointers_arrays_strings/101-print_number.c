@@ -29,27 +29,27 @@ int exponent(int x, int y)
 
 /**
  * print_number - prints an integer
- * @number:  the integer to be printed
+ * @n:  the integer to be printed
  * Description:takes inputs and prints an integer
  * Return: Nothing
  */
-void print_number(int number)
+void print_number(int n)
 {
 	int size, digit, counter, sign;
 
 	sign = 1;
 	digit = 0;
 	size = 1;
-	counter = number;
+	counter = n;
 
-	if (number < 0)
+	if (n < 0)
 		_putchar('-');
 		sign = -1;
 	for (; counter >= 10 || counter <= -10; size++)
 	{
 		counter = counter / 10;
 	}
-	counter = number;
+	counter = n;
 
 	while (size >= 2)
 	{
