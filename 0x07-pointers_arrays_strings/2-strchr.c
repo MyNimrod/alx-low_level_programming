@@ -1,31 +1,24 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
- * _strchr - locates a character in a string
- * @s: pointer to the string
- * @c: holds the character to locate
+ * _strchr - locates char in string
+ * @s: pointer to string
+ * @c: char to locate
  * Description: similar to the std library strchr
- * Return: pointer to the first location
+ * Return: points to the first location
  */
-char *_strchr(char *s, char c);
+
+char *_strchr(char *s, char c)
 {
-	int i;
-
-	if (src == NULL)
+	while (*s)
 	{
-		return (NULL);
-	}
-
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		if (src[i] == c)
+		if (*s == c)
 		{
-			return (&src[i]);
+			return (s);
 		}
+		s++;
 	}
-	if (src[i] == c)
-	{
-		return (&src[i]);
-	}
-	return (NULL);
+	return (!c ? s : NULL);
+
 }
