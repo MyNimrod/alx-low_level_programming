@@ -46,7 +46,7 @@ int wordcount(char *str)
  * Description:
  * Return: pointer to string array
  */
-char **strtow(char *str);
+char **strtow(char *str)
 {
 
 	int words = 0, in_word = 0;
