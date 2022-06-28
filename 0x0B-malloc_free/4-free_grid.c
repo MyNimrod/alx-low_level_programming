@@ -9,7 +9,7 @@
  * Description:
  * Return: void
  */
-void free_grid(int **grid, int height);
+void free_grid(int **grid, int height)
 {
 	if (!grid || height <= 0)
 		return;
