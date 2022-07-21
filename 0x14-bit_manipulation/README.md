@@ -3,3 +3,4 @@
 1-print_binary.c - prints a number as binary string
 2-get_bit.c - gets the bit at the index
 3-set_bit.c - sets the bit at the index
+4-clear_bit.c - clears the bit at the index
