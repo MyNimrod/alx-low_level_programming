@@ -6,3 +6,4 @@
 4-clear_bit.c - clears the bit at the index
 5-flip_bits.c -  returns hamming distance of two bit words
 100-get_endianness.c - returns the endianness of the system
+101-password - 
