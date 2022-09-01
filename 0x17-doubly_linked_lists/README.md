@@ -9,3 +9,4 @@
 7-insert_dnodeint.c inserts a new node at a given position.
 8-delete_dnodeint.c deletes the node at index index of a dlistint_t linked list
 100-password the password for crackme4.
+102-result A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
