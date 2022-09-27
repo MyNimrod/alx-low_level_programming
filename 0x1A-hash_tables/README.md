@@ -1,4 +1,6 @@
 ##0x1A-hash_tables
+###hash_tables.h
+The prototypes of all your functions should be included in your header file called hash_tables.h
 ###0-hash_table_create.c 
 a function that creates a hash table.
 
