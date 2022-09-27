@@ -40,4 +40,9 @@ Prototype: void hash_table_print(const hash_table_t *ht);
 where ht is the hash table
 You should print the key/value in the order that they appear in the array of hash table
 Order: array, list
+###6-hash_table_delete.c
+ a function that deletes a hash table.
+
+Prototype: void hash_table_delete(hash_table_t *ht);
+where ht is the hash table
 
