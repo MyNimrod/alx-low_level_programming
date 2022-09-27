@@ -33,4 +33,11 @@ a function that retrieves a value associated with a key.
 Prototype: char *hash_table_get(const hash_table_t *ht, const char *key);
 where ht is the hash table you want to look into
 and key is the key you are looking for
+###5-hash_table_print.c
+ a function that prints a hash table.
+
+Prototype: void hash_table_print(const hash_table_t *ht);
+where ht is the hash table
+You should print the key/value in the order that they appear in the array of hash table
+Order: array, list
 
