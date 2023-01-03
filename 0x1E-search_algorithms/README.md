@@ -74,3 +74,8 @@ You have to use the square root of the size of the array as the jump step.
 You can use the sqrt() function included in <math.h> (don’t forget to compile with -lm)
 Every time you compare a value in the array to the value you are searching for, you have to print this value (see example)
 
+### 101-O
+
+What is the time complexity (average case) of a jump search in an array of size n, using step = sqrt(n)?
+
+
