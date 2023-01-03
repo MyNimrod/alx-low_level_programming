@@ -31,4 +31,7 @@ You must print the array being searched every time it changes. (e.g. at the begi
 
 What is the time complexity (worst case) of a linear search in an array of size n?
 
+### 3-O
+
+What is the space complexity (worst case) of an iterative linear search algorithm in an array of size n?
 
