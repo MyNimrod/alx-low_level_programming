@@ -124,4 +124,39 @@ If value is not present in array or if array is NULL, your function must return 
 Every time you split the array, you have to print the new array (or subarray) you’re searching in (See example)
 You have to use recursion. You may only use one loop (while, for, do while, etc.) in order to print the array
 
+### 105-jump_list.c
+
+You might think that linear search is not as effective as any other algorithm, right? Well, we should see what happens with a singly linked list.
+
+Please define the following data structure in your search_algos.h header file:
+
+/**
+ * struct listint_s - singly linked list
+ *
+ * @n: Integer
+ * @index: Index of the node in the list
+ * @next: Pointer to the next node
+ *
+ * Description: singly linked list node structure
+ */
+typedef struct listint_s
+{
+    int n;
+    size_t index;
+    struct listint_s *next;
+} listint_t;
+Write a function that searches for a value in a sorted list of integers using the Jump search algorithm.
+
+Prototype : listint_t *jump_list(listint_t *list, size_t size, int value);
+Where list is a pointer to the head of the list to search in
+size is the number of nodes in list
+And value is the value to search for
+Your function must return a pointer to the first node where value is located
+You can assume that list will be sorted in ascending order
+If value is not present in head or if head is NULL, your function must return NULL
+You have to use the square root of the size of the list as the jump step.
+You can use the sqrt() function included in <math.h> (don’t forget to compile with -lm)
+Every time you compare a value in the list to the value you are searching, you have to print this value (see example)
+NOTE: You can find here the functions used in the example. You don’t need to push them, we will compile your file with our own implementation during the correction.
+
 
