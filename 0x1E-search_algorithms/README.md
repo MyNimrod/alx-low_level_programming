@@ -27,3 +27,8 @@ You can assume that value won’t appear more than once in array
 If value is not present in array or if array is NULL, your function must return -1
 You must print the array being searched every time it changes. (e.g. at the beginning and when you search a subarray) (See example)
 
+### 2-O
+
+What is the time complexity (worst case) of a linear search in an array of size n?
+
+
